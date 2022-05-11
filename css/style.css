@@ -1,0 +1,149 @@
+/* ***********TAG****************** */
+table{
+    position: relative;
+    font-size: 2.75vh;
+    font-weight: 500;
+    bottom: 5vh;
+    left:0.4vh;
+}
+label{
+    position: relative;
+    left:30vh;
+    top:5vh;
+    color: #0d06015e;
+}
+input{
+    position: relative;
+    left:35vh;
+    top:4vh;
+} 
+span{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+/* ***********Class******************** */
+.navbar{
+    background-color:   #FF9999;
+    height: 10vh;
+    position: relative;
+    bottom: 2.3vh;
+    border-radius: 1vh;
+    -webkit-border-radius: 1vh;
+    -moz-border-radius: 1vh;
+    -ms-border-radius: 1vh;
+    -o-border-radius: 1vh;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left:90vh;
+    margin: 3vh;
+    padding: 1vh;
+    bottom:2vh;
+
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #f9f5aa;
+    font-size: 3vh;
+    /* margin: 3vh;
+    padding: 3vh; */
+    position: relative;
+    /* top:2vh; */
+    font-weight:bolder;
+    font-family: 'Hind Siliguri', sans-serif;
+
+}
+.navbar ul li a:hover{
+    color:#6EDCD9;
+}
+.boy{
+    height: 30vh;
+    display: inline-block;
+    position: relative;
+    left:45vh;
+    top:11vh;
+}
+.intro{
+    color: rgb(13, 107, 107);
+    height: 85vh;
+    position: relative;
+    top:10vh;
+    width: 100%;
+}
+.name{
+    font-family: 'Merienda';
+    display: inline-block;
+    position: relative;
+    left:45vh;
+    top:8vh;
+    font-size: 7vh;
+}
+#intro{
+    font-family: 'Merienda';
+    display: inline-block;
+    position: relative;
+    top:20vh;
+    right:40vh;
+    font-size: 8vh;
+}
+.skill{
+    background-color: #FFEBCC;
+    position: relative;
+    bottom: 1.75vh;
+    width: 100%;
+    font-family: 'Merienda';
+
+}
+.tskill{
+    font-family:'Merienda';
+    font-size: 10vh;
+    color: rgba(128, 128, 128, 0.245);
+    display: inline-block;
+    position: relative;
+    left: 70vh;
+    margin-top: 5vh;
+    
+    
+}
+.hate{
+    background-color: #FF9999;
+    height: 8vh;
+    width: 100%;
+    position: relative;
+    bottom: 1.4vh;
+    border-radius: 2vh;
+}
+.hate h1{
+    display: inline-block;
+    position: relative;
+    color: #f9f5aa;
+    left:27vh;
+    bottom: 2vh;
+    font-size: 5vh;
+}
+.form{
+    height: 15vh;
+    background-color: #DBD0C0;
+    font-size: 5vh;
+    font-weight: 600;
+    position: relative;
+    bottom: 1.1vh;
+}
+.input{
+    height: 8vh;
+    border-radius:2vh ;
+    position: relative;
+    bottom: 2vh;
+
+}
+.area{
+    width: 100vh;
+}
+.btn{
+    font-size: 3vh;
+    color: rgb(232, 248, 160);
+    background-color: rgba(246, 99, 99, 0.594);
+    border: px solid white;
+}
