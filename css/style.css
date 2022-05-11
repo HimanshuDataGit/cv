@@ -147,3 +147,33 @@ span{font-family: Georgia, 'Times New Roman', Times, serif;}
     background-color: rgba(246, 99, 99, 0.594);
     border: px solid white;
 }
+a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left:0;
+    bottom:0;
+    height:0.175rem;
+    background-color: #6EDCD9;
+}
+
+a::after{
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+    -webkit-transform: scale(0,1);
+    -moz-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    -o-transform: scale(0,1);
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -ms-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+}
+
+a:hover::after{
+    transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    -o-transform: scale(1,1);
+}
