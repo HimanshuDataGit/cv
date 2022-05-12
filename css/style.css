@@ -1,4 +1,7 @@
 /* ***********TAG****************** */
+body{
+    margin:0px;
+}
 table{
     position: relative;
     font-size: 2.75vh;
